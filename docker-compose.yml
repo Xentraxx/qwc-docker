@@ -3,7 +3,5 @@ services:
 
   qwc-api-gateway:
     image: nginx:1.19
-    ports:
-      - 8088:80
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf
